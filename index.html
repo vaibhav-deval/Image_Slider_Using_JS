@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sliderContainer">
+      <div class="btnDiv">
+        <button onclick="plusSlide(-1)" class="left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            enable-background="new 0 0 24 24"
+            height="40px"
+            viewBox="0 0 24 24"
+            width="40px"
+            fill="#000000"
+          >
+            <rect fill="none" height="24" width="24" />
+            <path
+              d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z"
+            />
+          </svg>
+        </button>
+        <button onclick="plusSlide(1)" class="right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            enable-background="new 0 0 24 24"
+            height="40px"
+            viewBox="0 0 24 24"
+            width="40px"
+            fill="#000000"
+          >
+            <rect fill="none" height="24" width="24" />
+            <path
+              d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="mySlide slide1">
+        <div>
+          <h2>SLIDE HEADING1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugiat
+            fugit dignissimos odit dolorum,
+          </p>
+          <button>Learn More</button>
+        </div>
+      </div>
+      <div class="mySlide slide2">
+        <div>
+          <h2>SLIDE HEADING2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugiat
+            fugit dignissimos odit dolorum,</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+      <div class="mySlide slide3">
+        <div>
+          <h2>SLIDE HEADING3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugiat
+            fugit dignissimos odit dolorum,</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+      <div class="mySlide slide4">
+        <div>
+          <h2>SLIDE HEADING4</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugiat
+            fugit dignissimos odit dolorum,</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+      <div class="dotss" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
