@@ -96,16 +96,16 @@
 }
 
 .slide1 {
-  background-image: url("/1.jpg");
+  background-image: url("1.jpg");
 }
 .slide2 {
-  background-image: url("/2.jpg");
+  background-image: url("2.jpg");
 }
 .slide3 {
-  background-image: url("/3.jpg");
+  background-image: url("3.jpg");
 }
 .slide4 {
-  background-image: url("/4.jpg");
+  background-image: url("4.jpg");
 }
 
 .showSlide {
